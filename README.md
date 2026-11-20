@@ -5,6 +5,9 @@ MicrosoftEntityFrameworkCore.Design(7.0.20)
 MicrosoftEntityFrameworkCore.SqlServer(7.0.20)
 MicrosoftEntityFrameworkCore.Tools(7.0.20)
 
+la cadena de conexion de la base de datos se llama DefaultConnection y esta en el fichero appsettings.json. este es un ejemplo. en caso de necesitar modificar, solo buscar este ejemplo y modificarlo a partir de los :
+
+"DefaultConnection": "Data Source=localhost;Initial Catalog=Tareas;User ID=sa;Password=sasa;TrustServerCertificate=True"
 
 
 se debe ejecutar esta consulta en SQL server. Este script creara la Base de datos y la tabla Tareas 
