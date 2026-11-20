@@ -1,4 +1,4 @@
-Prerequisitos del proyecto para Microsoft Visual Studio
+Prerequisitos del proyecto para Microsoft Visual Studio 2022
 
 MicrosoftAspNetCore.Api (7.0.5)
 MicrosoftEntityFrameworkCore.Design(7.0.20)
