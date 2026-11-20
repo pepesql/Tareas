@@ -7,7 +7,6 @@ MicrosoftEntityFrameworkCore.Tools(7.0.20)
 
 
 
-
 se debe ejecutar esta consulta en SQL server. Este script creara la Base de datos y la tabla Tareas 
 
 USE [master]
@@ -119,3 +118,12 @@ USE [master]
 GO
 ALTER DATABASE [Tareas] SET  READ_WRITE 
 GO
+
+
+ejemplo de como ejecutar el metodo paginado donde se puede filtrar por diferentes valores como estado, responsable, etc..
+
+GetTareasPaginado?page=1&pageSize=10&estado=EnProgreso&responsable=ana&search=informe
+
+
+
+
